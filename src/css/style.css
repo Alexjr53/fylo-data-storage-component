@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    background: var(--primary-dark-color) url(../images/bg-desktop.png) no-repeat bottom;
+    background-size: 100vw 51vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-container{
+    background-color: var(--primary-medium-color);
+    border-radius: 1rem 10rem 1rem 1rem;
+    width: 35rem;
+    height: 20rem;
+    padding: 4rem;
+}
+
+.logo-container .icon-container {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    margin-top: 2.8rem;
+}
+
+.logo-container .icon-container a{
+    background-color: var(--primary-dark-color);
+    margin-right: 1.6rem;
+    border-radius: 1rem;
+}
+
+.logo-container .icon-container a.icon-document{
+    padding: 1rem 1.4rem;
+}
+
+.logo-container .icon-container a.icon-folder{
+    padding: 1.3rem;
+}
+
+.logo-container .icon-container a.icon-upload{
+    padding: 1.4rem 1.3rem;
+}
