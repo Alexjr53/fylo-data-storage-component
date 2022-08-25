@@ -13,6 +13,8 @@ body{
 
 main{
     display: flex;
+    align-items: flex-end;
+    gap: 3rem;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -47,4 +49,98 @@ main{
 
 .logo-container .icon-container a.icon-upload{
     padding: 1.4rem 1.3rem;
+}
+
+.storage-container{
+    width: 54rem;
+    height: 15.5rem;
+    border-radius: 1rem;
+    padding: 4rem;
+    background-color: var(--primary-medium-color);
+}
+
+.storage-container .storage-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.storage-container .storage-info .gb-used{
+    font-size: 1.4rem;
+    color: var(--text-soft-color);
+}
+
+.storage-container .storage-info .gb-used span{
+    font-weight: 700;
+}
+
+.storage-container .storage-info .gb-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17.9rem;
+    height: 7rem;
+    border-radius: 1.2rem;
+    margin-top: -8.6rem;
+    background-color: white;
+    position: relative;
+}
+
+.storage-container .storage-info .gb-left p:first-child{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.storage-container .storage-info .gb-left p:last-child{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.storage-container .storage-info .gb-left::after{
+    content: "";
+    top: 5.5rem;
+    left: 13.9rem;
+    position: absolute;
+    border-right: 20px solid white;
+    border-top: 20px solid white;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.storage-container .limit-bar{
+    display: flex;
+    align-items: center;
+    background-color: var(--neutral-bar-bg-color);
+    border-radius: 10rem;
+    width: 46rem;
+    height: 2rem;
+    margin-top: 1.7rem;
+}
+
+.storage-container .limit-bar .progress-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(to right, var(--neutral-bar-color), var(--neutral-bar-degrade-color));
+    border-radius: 10rem;
+    width: 34rem;
+    height: 1.4rem;
+    margin-left: 0.2rem;
+}
+
+.storage-container .limit-bar .progress-bar .progress-marker{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.2rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.storage-container .gb-limit-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.9rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
 }
