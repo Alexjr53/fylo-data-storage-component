@@ -1,5 +1,8 @@
 :root{
     --primary-medium-color:hsl(228, 56%, 26%);
     --primary-dark-color:hsl(229, 57%, 11%);
-    
+    --neutral-bar-bg-color:hsla(229, 57%, 11%, 0.514);
+    --neutral-bar-color:hsl(6, 100%, 80%);
+    --neutral-bar-degrade-color:hsl(335, 100%, 65%);
+    --text-soft-color:hsl(243, 100%, 93%);
 }
