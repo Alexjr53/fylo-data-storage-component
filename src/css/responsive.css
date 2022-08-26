@@ -1,0 +1,47 @@
+@media(max-width:975px){
+    body{
+        background: url(../images/bg-mobile.png) no-repeat bottom;
+        background-size: cover;
+    }
+    
+    main{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.8rem;
+    }
+
+    .logo-container{
+        width: 33rem;
+    }
+
+    .storage-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33rem;
+        padding: 3rem;
+        position: relative;
+    }
+
+
+    .storage-container .storage-info .gb-left{
+        margin: 9.3rem 2.6rem;
+        position: absolute;
+    }
+
+    .storage-container .storage-info .gb-left::after{
+       display: none;
+    }
+
+    .storage-container .limit-bar{
+        width: 26rem;
+    }
+
+    .storage-container .limit-bar .progress-bar{
+        width: 19.3rem;
+    }
+
+    .storage-container .gb-limit-info{
+        width: 95%;
+    }
+}
