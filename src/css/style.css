@@ -3,12 +3,12 @@ html{
 }
 
 body{
-    min-height: 100vh;
-    background: var(--primary-dark-color) url(../images/bg-desktop.png) no-repeat bottom;
-    background-size: 100vw 51vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    background: var(--primary-dark-color) url(../images/bg-desktop.png) no-repeat bottom;
+    background-size: 100vw 51vh;
 }
 
 main{
