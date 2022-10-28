@@ -1,6 +1,6 @@
-# Frontend Mentor - Solução do Fylo data storage component
+# Desafio Frontend Mentor - Solução do Fylo data storage component
 
-Esta é uma solução para o [Desafio Fylo data storage component no Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Desafio Fylo data storage component no Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).
 
 [![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/fylo-data-storage-component/blob/main/LICENSE)
 
@@ -22,19 +22,19 @@ Esta é uma solução para o [Desafio Fylo data storage component no Frontend Me
 
 Os usuários devem ser capazes de:
 
-- Visualize o layout ideal para a página, dependendo do tamanho da tela do dispositivo
+- criar o layout ideal para a página, dependendo do tamanho da tela do dispositivo
 
 ### Screenshot
 
 #### Desktop
-![produto](src/images/screenshot-desktop.png)
+![Fylo data storage component](src/design/screenshot-desktop.png)
 
 #### Mobile
-![produto](src/images/screenshot-mobile.png)
+![Fylo data storage component](src/design/screenshot-mobile.png)
 
 ### Links
 
-- Solução URL: [Fylo data storage component - Frontend mentor](https://www.frontendmentor.io/solutions/fylo-data-storage-component-dSFKZpDMLK)
+- Solução do desafio: [Fylo data storage component - Frontend mentor](https://www.frontendmentor.io/solutions/fylo-data-storage-component-dSFKZpDMLK)
 - URL da página: [Fylo data storage component](https://alexjr53.github.io/fylo-data-storage-component/) 
 
 ## Meu processo
