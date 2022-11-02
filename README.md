@@ -34,8 +34,9 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução do desafio: [Fylo data storage component - Frontend mentor](https://www.frontendmentor.io/solutions/fylo-data-storage-component-dSFKZpDMLK)
+- Solução do desafio no frontend mentor: [Fylo data storage component - Frontend mentor](https://www.frontendmentor.io/solutions/fylo-data-storage-component-dSFKZpDMLK)
 - URL da página: [Fylo data storage component](https://alexjr53.github.io/fylo-data-storage-component/) 
+- Repositório do projeto no GitHub: [Fylo data storage component](https://github.com/Alexjr53/fylo-data-storage-component)
 
 ## Meu processo
 
