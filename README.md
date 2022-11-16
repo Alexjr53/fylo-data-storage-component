@@ -16,7 +16,7 @@ Esta é uma solução para o [Desafio Fylo data storage component no Frontend Me
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-  ## Visão geral
+## Visão geral
 
 ### Desafio
 
